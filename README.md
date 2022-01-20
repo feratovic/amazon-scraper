@@ -10,27 +10,29 @@ First clone git repo then use command
     npm install
 ```
 
-# Get Product Details
+# Rest api endpoints
+
+## Get Product Details
 
 ```
 /products/:productId?api_key=(enter scraperApi api key)
 ```
 
 
-# Get Product Reviews
+## Get Product Reviews
 
 ```
 /products/:productId/reviews?api_key=(enter scraperApi api key)
 ```
 
-# Get Product Offers
+## Get Product Offers
 
 ```
 /products/:productId/offers?api_key=(enter scraperApi api key)
 ```
 
 
-# Get Search Results
+## Get Search Results
 
 ```
 /search/:searchQuery?api_key=(enter scraperApi api key)
