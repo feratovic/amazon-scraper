@@ -10,6 +10,18 @@ First clone git repo then use command
     npm install
 ```
 
+To run application in development mode use 
+
+```
+    npm run dev
+```
+
+Otherwise use 
+
+```
+    npm run start
+```
+
 # Rest api endpoints
 
 ## Get Product Details
