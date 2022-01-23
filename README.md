@@ -1,13 +1,26 @@
 
 <h1 align="center">
-    <img align='center' src="https://media.sproutsocial.com/uploads/2015/04/What-is-an-API.png"  width="260"> 
+    <img align='center' src="https://media0.giphy.com/media/H7r5XcQccQvlXPwUOR/giphy.gif?cid=ecf05e47t45xst241m1lbyod38j6ohu42blvzmjin290xqwh&rid=giphy.gif&ct=s"  width="260"> 
     <br />
     Amazon Data Scraper
 </h1>
 
-Amazon Data Scraper is the easiest way to get access to product, price, sales rank and reviews data from Amazon in JSON format.
+<h4 align="center">
+  <a href="https://rapidapi.com/feratovic/api/amazon-data-scraper-mne/">
+      View Demo
+      <br /><br />
+      <img align="center" alt="Amazon Data Scraper" src="https://amazon-scraper-mne.herokuapp.com/static/images/amazon_api.jpg"  />
+  </a>
+</h4>
 
-To use application you will need scraperApi api key.
+
+## Introduction
+
+    Amazon Data Scraper is the easiest way to get access to product, price, sales rank and reviews data from Amazon in JSON format.
+ 
+## How to run the application
+ 
+You will need  scraperApi acccount and api key from that account.
 
 First clone git repo then use command
 
@@ -27,29 +40,29 @@ Otherwise use
     npm run start
 ```
 
-# Rest api endpoints
+## Rest api endpoints
 
-## Get Product Details
+### Get Product Details
 
 ```
 /products/:productId?api_key=(enter scraperApi api key)
 ```
 
 
-## Get Product Reviews
+### Get Product Reviews
 
 ```
 /products/:productId/reviews?api_key=(enter scraperApi api key)
 ```
 
-## Get Product Offers
+### Get Product Offers
 
 ```
 /products/:productId/offers?api_key=(enter scraperApi api key)
 ```
 
 
-## Get Search Results
+### Get Search Results
 
 ```
 /search/:searchQuery?api_key=(enter scraperApi api key)
