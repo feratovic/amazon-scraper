@@ -1,5 +1,6 @@
 const express = require('express');
 const request = require('request-promise');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -8,9 +9,10 @@ const generateScraperUrl = (apiKey) =>
   `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 
 app.use(express.json());
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  res.send('Welcome');
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 //Get Product Details
